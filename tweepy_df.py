@@ -7,7 +7,7 @@ def tweets2df(hit_tweets):
     Return the DataFrame object. 
     """
 
-    # 空の辞書を作成
+    # 値（リスト）の中身が空の辞書を作成
     tweets_container = {'user_id': [], 'screen_name': [], 'profile_name': [], 'followers_num': [], 'tweet_date': [], 'tweet_text': []}
 
     # 1つずつ行データをリストに追加
