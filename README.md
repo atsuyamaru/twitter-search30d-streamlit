@@ -30,6 +30,13 @@ Tweepyを介してTwitter API検索を行う際にTwitter DeveloperでのAPI key
 - 参考: [TweepyをTwitter API v2経由で利用する](https://scr.marketing-wizard.biz/dev/tweepy-twitter-apiv2)
 
 下記を参考に秘密鍵を保存・設定してください。
+```
+consumer_key="xxxxxxx_your_consumer_key_xxxxxx"
+consumer_secret="xxxxxxx_your_consumer_secret_key_xxxxx"
+bearer_token="AAAAAAAAAAAAAAAAAAAAAbearer_tokenAAAAAAAAAA"
+access_token="xxxxx_access_token_xxxxxx"
+access_token_secret="xxxxx_access_token_secret_xxxxxxx"
+```
 - [Secrets management - Streamlit Docs](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
 
 ## 技術・構成
