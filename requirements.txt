@@ -1,5 +1,3 @@
 pandas
 streamlit
 tweepy
-
-tweepy_df
