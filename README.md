@@ -1,5 +1,5 @@
 # twitter-search30d-streamlit: Twitter30日間検索&CSV保存のクライアントアプリ
-Twitter 30days Search Client deployed with Streamlit.
+Twitter 30days Search % Save as CSV Client made with Streamlit, expected to deploy in the Streamlit Cloud.
 
 Twitter API v1.1のPremium Searchを利用して、特定のキーワードで検索できるWebアプリ。直近30日間のつぶやきを対象に検索できます。  
 フォロワー数によるフィルタリングも可能。  
