@@ -11,6 +11,9 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 
 ![CleanShot 2023-02-13 at 18 45 10](https://user-images.githubusercontent.com/5616593/218425060-367d7d1f-84c2-4c07-aa0e-143ce946a6e6.png)
 
+## フォロワー数によるフィルタリング機能は未実装
+最上部の「フォロワー数によるフィルター」はまだ機能実装できておりません。設定しても結果には反映されませんので、ご注意ください。
+
 ## 使い方
 ### Premium Searchを利用できるアクセス権を取得。（無料で利用できるSandbox推奨）
 30days Searchを利用するにはPremium Searchを利用できるアクセス権が必要です。
@@ -21,7 +24,7 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 デプロイ設定時、メインファイルのパスはstreamlit_30d.pyを指定します。
 
 ### 秘密鍵の設定
-Tweepyを介してTwitter API検索を行う際に利用するAPI keyを秘密鍵としてStreamlitのSecret設定で保存してください。
+Tweepyを介してTwitter API検索を行う際にTwitter DeveloperでのAPI keyを利用します。利用するAPI keyを秘密鍵としてStreamlitのSecret設定で保存してください。
 - 参考: [Tweepyで自動ツイート・自動いいねを実装する](https://scr.marketing-wizard.biz/dev/tweepy-autotweet-apiv1)
 - 参考: [TweepyをTwitter API v2経由で利用する](https://scr.marketing-wizard.biz/dev/tweepy-twitter-apiv2)
 
