@@ -22,11 +22,11 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 
 ### 秘密鍵の設定
 Tweepyを介してTwitter API検索を行う際に利用するAPI keyを秘密鍵としてStreamlitのSecret設定で保存してください。
-参考: [Tweepyで自動ツイート・自動いいねを実装する](https://scr.marketing-wizard.biz/dev/tweepy-autotweet-apiv1)
-参考: [TweepyをTwitter API v2経由で利用する](https://scr.marketing-wizard.biz/dev/tweepy-twitter-apiv2)
+- 参考: [Tweepyで自動ツイート・自動いいねを実装する](https://scr.marketing-wizard.biz/dev/tweepy-autotweet-apiv1)
+- 参考: [TweepyをTwitter API v2経由で利用する](https://scr.marketing-wizard.biz/dev/tweepy-twitter-apiv2)
 
 下記を参考に秘密鍵を保存・設定してください。
-[Secrets management - Streamlit Docs](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
+- [Secrets management - Streamlit Docs](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
 
 ## 技術・構成
 Python v3.8で確認済。
