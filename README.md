@@ -19,7 +19,7 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 - user_id: ユーザーID
 - screen_name: @に続くユーザー名
 - profile_name: ユーザーが設定したプロフィール名
-- followers_num: フォロワー数
+- followers_num: フォロワー数 （フィルタリング対象の列）
 - tweet_date: ツイートした日時
 - tweet_text: ツイートしたテキスト内容
 
