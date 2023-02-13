@@ -1,8 +1,8 @@
 # twitter-search30d-streamlit: Twitter30日間検索&CSV保存のクライアントアプリ
 Twitter 30days Search Client deployed with Streamlit.
 
-Twitter API v1.1のPremium Searchを利用して、特定のキーワードで検索できるWebアプリ。
-検索結果をDataFrameとしてアプリ上で閲覧でき、CSVファイルとして保存することが可能です。
+Twitter API v1.1のPremium Searchを利用して、特定のキーワードで検索できるWebアプリ。  
+検索結果をDataFrameとしてアプリ上で閲覧でき、CSVファイルとして保存することが可能です。  
 デプロイ先としてはStreamlit Cloudを想定しています。
 
 ## アプリケーションのスクリーンショット
@@ -16,11 +16,12 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 
 ## 使い方
 ### Premium Searchを利用できるアクセス権を取得。（無料で利用できるSandbox推奨）
-30days Searchを利用するにはPremium Searchを利用できるアクセス権が必要です。
+30days Searchを利用するにはPremium Searchを利用できるアクセス権が必要です。  
 [Twitter API Sandboxの作成・申請方法。30日間検索と全期間検索を無料で実行](https://scr.marketing-wizard.biz/dev/twitter-api-sandbox-apply)
 
 ### Streamlit Cloudでデプロイ
-本リポジトリのファイルをStreamlit Cloudへデプロイしてください。
+本リポジトリのファイルをStreamlit Cloudへデプロイしてください。  
+GitHubへクローンのうえ、Streamlit Cloudで該当のリポジトリを指定する方法がおすすめです。  
 デプロイ設定時、メインファイルのパスはstreamlit_30d.pyを指定します。
 
 ### 秘密鍵の設定
