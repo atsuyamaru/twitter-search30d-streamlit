@@ -29,7 +29,7 @@ Tweepyを介してTwitter API検索を行う際にTwitter DeveloperでのAPI key
 - 参考: [Tweepyで自動ツイート・自動いいねを実装する](https://scr.marketing-wizard.biz/dev/tweepy-autotweet-apiv1)
 - 参考: [TweepyをTwitter API v2経由で利用する](https://scr.marketing-wizard.biz/dev/tweepy-twitter-apiv2)
 
-下記を参考に秘密鍵を保存・設定してください。
+下記を参考にStreamlit Cloud上で秘密鍵を保存・設定してください（Secrets management）。下記の変数名をAPI認証に利用しています。
 ```
 consumer_key="xxxxxxx_your_consumer_key_xxxxxx"
 consumer_secret="xxxxxxx_your_consumer_secret_key_xxxxx"
