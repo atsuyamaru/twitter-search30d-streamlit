@@ -6,6 +6,11 @@ Twitter API v1.1のPremium Searchを利用して、特定のキーワードで�
 検索結果をDataFrameとしてアプリ上で閲覧でき、CSVファイルとして保存することができます。  
 デプロイ先としてはStreamlit Cloudを想定しています。
 
+## CAUTION: Twitter APIの仕様変更により無料では利用できません
+
+Twitter APIの仕様変更により、無料プラン（Sandbox含む）では利用できない状態となっています。
+また2023年度のAPI仕様変更には対応していないため、仕様変更に伴う動作保証はいたしておりません。
+
 ## アプリケーションのスクリーンショット
 
 ![CleanShot 2023-02-13 at 18 44 55](https://user-images.githubusercontent.com/5616593/218425048-433c1c68-ebd6-4c9a-b4ab-05fac191f55b.png)
