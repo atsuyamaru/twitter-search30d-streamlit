@@ -52,6 +52,7 @@ access_token="xxxxx_access_token_xxxxxx"
 access_token_secret="xxxxx_access_token_secret_xxxxxxx"
 ```
 - [Secrets management - Streamlit Docs](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
+- [Streamlit Community CloudでWebアプリを公開する際の準備事項](https://scr.marketing-wizard.biz/dev/streamlit-community-cloud-publish)
 
 ## 技術・構成
 Python v3.8で確認済。
